@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <h1>Logi sisse Lukas</h1>
+  <form>
+    <fieldset>
+      <label for="nimi">Nimi
+        <input id="nimi" name="nimi" type="text" required>
+      </label>
+      <label for="pass">Pass
+        <input id="pass" name="pass" type="password" required>
+      </label>
+    </fieldset>
+    <input type="submit" value="Login" onclick="auth()">
+  </form>
+  <script>
+    function auth() {
+      var nimi=document.getElementById('nimi').value;
+      var pass=document.getElementById('pass').value;
+      
+      if(nimi=='Lukas' && pass=='kidrasite') {
+        window.location.assign('page2.html');
+        alert('õige');
+      }
+      else {
+        alert('Midagi panid valesti');
+        return;
+      }
+    }
+  </script>
+</body>
+</html>

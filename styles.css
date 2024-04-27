@@ -1,0 +1,68 @@
+body {
+  padding: 0 10em;
+  font: normal 1em/1.4 system-ui;
+  background-color: #FFFFFF;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  margin-bottom: 2vw;
+  text-decoration: underline #D72638;
+}
+
+h2 {
+  border: 2px solid #D72638;
+  background-color: #FCD9DD;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 0.1vw;
+  margin-top: 0.1vw;
+}
+
+img[name="chord"] {
+  max-width: 100%;
+  width: 6vw;
+  height: auto;
+}
+
+figure {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  display: block;
+  margin-top: 1.5vw;
+  margin-bottom: 1vw;
+  color: #EF233C;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #EF233C;
+}
+
+li {
+  margin-bottom: 0.75vw;
+}
+
+hr {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  border: #D72638 solid;
+}
+
+hr:first-of-type {
+  margin-top: 0.9vw;
+  border: #D72638 solid;
+}

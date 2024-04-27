@@ -1,0 +1,64 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  color: black;
+  font: normal 1em/1.4 system-ui;
+}
+
+h1 {
+  margin: 1em auto;
+  text-align: center;
+  text-decoration: underline #D72638;
+}
+
+form {
+  width: 20vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: 2px solid #D72638;
+  border-radius: 15px;
+  background-color: #FCD9DD;
+}
+
+input {
+  margin: 10px 0 0 0;
+  width: 80%;
+  border: 1px solid #D72638;
+  border-radius: 15px;
+  height: 2em;
+  padding: 0 10px;
+  transition: width 0.15s, height 0.15s;
+}
+
+input[id="nimi"]:hover, input[id="pass"]:hover {
+  width: 85%;
+  height: 2.2em;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 50%;
+  margin: 1em auto;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.15s, box-shadow 0.15s;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff0f2;
+  box-shadow: 0 0 10px #FCD9DD;
+}
